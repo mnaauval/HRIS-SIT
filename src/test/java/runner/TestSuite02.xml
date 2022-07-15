@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SuiteTest" parallel="none">
+	<test name="HRIS Employee">
+
+		<classes>
+			<class name="runner.promotion.HRISPagePromotionContract"></class>
+			<class name="runner.promotion.HRISPagePromotionJabatan"></class>
+			<class name="runner.promotion.HRISPagePromotionJabatanNeg"></class>
+			<class name="runner.promotion.HRISPagePromotionSalary"></class>
+		</classes>
+
+	</test>
+</suite>

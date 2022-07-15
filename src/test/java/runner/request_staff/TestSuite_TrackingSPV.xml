@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="HRIS Employee" parallel="none">
+	<test name="SPV Menu Tracking">
+
+		<classes>
+			<class name="runner.HRISTrackingSpvRunner"></class>
+		</classes>
+
+	</test>
+</suite>

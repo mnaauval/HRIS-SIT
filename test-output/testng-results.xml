@@ -1,0 +1,2276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="106" passed="95" failed="11" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_143558.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_143920.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_144234.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_145109.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_145325.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_151649.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_152300.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_160243.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_160907.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_160925.PNG'height="350" width="792"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_161010.PNG'height="350" width="792"/>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-14T14:33:25 ICT" name="SuiteTest" finished-at="2022-07-14T16:27:28 ICT" duration-ms="6842810">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-07-14T14:33:25 ICT" name="HRIS Employee" finished-at="2022-07-14T16:27:28 ICT" duration-ms="6842810">
+      <class name="runner.promotion.HRISPagePromotionContract">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:33:26 ICT" name="setUpClass" finished-at="2022-07-14T14:33:26 ICT" duration-ms="482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2fea3c2c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:33:26 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:33:49 ICT" duration-ms="22933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Action click *AddData*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:33:49 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:34:48 ICT" duration-ms="59212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Tampil pesan sukses jika data berhasil ditambahkan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:34:48 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:35:58 ICT" duration-ms="70093" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Tampil sent to uplier"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="table"]/tbody/tr/td[6]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2514f56dccc3ec93c3ccd43ba5b9ddd1, findElement {using=xpath, value=//*[@id="table"]/tbody/tr/td[6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63071/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2514f56dccc3ec93c3ccd43ba5b9ddd1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="table"]/tbody/tr/td[6]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2514f56dccc3ec93c3ccd43ba5b9ddd1, findElement {using=xpath, value=//*[@id="table"]/tbody/tr/td[6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63071/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2514f56dccc3ec93c3ccd43ba5b9ddd1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at pom.PromotionHistoryPage.getAppr(PromotionHistoryPage.java:111)
+at definitions.promotion.HRISPagePromotionDefine.validasi_asc_kolom_appr(HRISPagePromotionDefine.java:915)
+at ✽.Validasi kolom Appr(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:45)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_143558.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:35:58 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:37:01 ICT" duration-ms="63072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_start* and *field_end* >=current"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:37:01 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:38:14 ICT" duration-ms="72672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_start* and *field_end* >=current"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:38:14 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:39:21 ICT" duration-ms="66577" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_start* and *field_end* >=current"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-warning alert-dismissible fade show']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d669933be913db625561e1d30776dca4, findElement {using=xpath, value=//div[@class='alert alert-warning alert-dismissible fade show']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63236/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d669933be913db625561e1d30776dca4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-warning alert-dismissible fade show']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d669933be913db625561e1d30776dca4, findElement {using=xpath, value=//div[@class='alert alert-warning alert-dismissible fade show']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63236/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d669933be913db625561e1d30776dca4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy28.getText(Unknown Source)
+at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:65)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_143920.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:39:21 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:40:18 ICT" duration-ms="57018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_start* and *field_end* >=current"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:40:18 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:41:22 ICT" duration-ms="64340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_start* and *field_end* >=current"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:41:22 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:42:34 ICT" duration-ms="72388" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_start* and *field_end* >=current"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-warning alert-dismissible fade show']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec57f88f617164b42a977b2a2724d7b6, findElement {using=xpath, value=//div[@class='alert alert-warning alert-dismissible fade show']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63394/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec57f88f617164b42a977b2a2724d7b6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-warning alert-dismissible fade show']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec57f88f617164b42a977b2a2724d7b6, findElement {using=xpath, value=//div[@class='alert alert-warning alert-dismissible fade show']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63394/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec57f88f617164b42a977b2a2724d7b6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy28.getText(Unknown Source)
+at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:65)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_144234.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:42:34 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:43:38 ICT" duration-ms="63991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_start* < current_time"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:43:38 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:44:36 ICT" duration-ms="57416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_end*  < start"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:44:36 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:45:43 ICT" duration-ms="66957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_vaksin* >=< current"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:45:43 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:46:47 ICT" duration-ms="64237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_vaksin* >=< current"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:46:47 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:47:49 ICT" duration-ms="61942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_vaksin* >=< current"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:47:49 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:48:51 ICT" duration-ms="62018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *masa* edit > < auto sum"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:48:51 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:50:01 ICT" duration-ms="69919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *masa* edit > < auto sum"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:50:01 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:51:09 ICT" duration-ms="68658" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_vaksin* pilih belum vaksin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://dev.ptdika.com/employee/promotion/" class="btn btn-danger">...</a> is not clickable at point (309, 17). Other element would receive the click: <div id="header" class="header navbar-default">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6499dc5fd429af831138d39e4269b054, clickElement {id=63933deb-aeac-46ac-a1f6-e5fd844c6f50}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63806/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6499dc5fd429af831138d39e4269b054)] -> xpath: //a[@class='btn btn-danger']]
+Session ID: 6499dc5fd429af831138d39e4269b054]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://dev.ptdika.com/employee/promotion/" class="btn btn-danger">...</a> is not clickable at point (309, 17). Other element would receive the click: <div id="header" class="header navbar-default">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6499dc5fd429af831138d39e4269b054, clickElement {id=63933deb-aeac-46ac-a1f6-e5fd844c6f50}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63806/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6499dc5fd429af831138d39e4269b054)] -> xpath: //a[@class='btn btn-danger']]
+Session ID: 6499dc5fd429af831138d39e4269b054
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy28.click(Unknown Source)
+at definitions.promotion.HRISPagePromotionDefine.kembali(HRISPagePromotionDefine.java:363)
+at ✽.Kembali ke halaman promotion(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:180)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_145109.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:51:09 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:52:14 ICT" duration-ms="64085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_start* tgl vaksin kosong [-]"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:52:14 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:53:25 ICT" duration-ms="71080" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_start* < current time [-]"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-warning alert-dismissible fade show']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ee4922eadbf2920de11652ea0574682, findElement {using=xpath, value=//div[@class='alert alert-warning alert-dismissible fade show']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63919}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63919/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ee4922eadbf2920de11652ea0574682]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-warning alert-dismissible fade show']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ee4922eadbf2920de11652ea0574682, findElement {using=xpath, value=//div[@class='alert alert-warning alert-dismissible fade show']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63919}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63919/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ee4922eadbf2920de11652ea0574682
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy28.getText(Unknown Source)
+at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:218)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_145325.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:53:25 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:54:32 ICT" duration-ms="67362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_note* variasi data [-]"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:54:32 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:55:30 ICT" duration-ms="58186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_note* variasi data [-]"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:55:30 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:56:23 ICT" duration-ms="52384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_start* kosong [-]"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:56:23 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:57:16 ICT" duration-ms="53236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_end* < current time [-]"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:57:16 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:58:13 ICT" duration-ms="57557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_masa* kosong [-]"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:58:13 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T14:59:07 ICT" duration-ms="53753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_masa* show auto sum, masa =0 & < 0"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T14:59:07 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:00:09 ICT" duration-ms="62078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_masa* show auto sum, masa =0 & < 0"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T15:00:09 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:01:13 ICT" duration-ms="64241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan kontrak dengan *field_masa* show auto sum, masa =0 & < 0"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.promotion.HRISPagePromotionContract@14028087]" started-at="2022-07-14T15:01:13 ICT" name="tearDownClass" finished-at="2022-07-14T15:01:14 ICT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.promotion.HRISPagePromotionContract -->
+      <class name="runner.promotion.HRISPagePromotionJabatanNeg">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:34:09 ICT" name="setUpClass" finished-at="2022-07-14T15:34:09 ICT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2fea3c2c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:34:09 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:35:07 ICT" duration-ms="58413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_NIK* tidak dipilih"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:35:07 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:36:20 ICT" duration-ms="73060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_tglEf* Kosong"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:36:20 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:37:31 ICT" duration-ms="70665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_Status* Kosong"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:37:31 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:38:44 ICT" duration-ms="72750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_Unit* Kosong"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:38:44 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:39:56 ICT" duration-ms="72242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_Jabatan* Kosong"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:39:56 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:41:08 ICT" duration-ms="71698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_divisi* Kosong"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:41:08 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:42:19 ICT" duration-ms="71714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_level* Kosong"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:42:19 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:43:13 ICT" duration-ms="53845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_Gapok*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:43:13 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:44:06 ICT" duration-ms="53095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_Gapok*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:44:06 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:45:01 ICT" duration-ms="54475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_Gapok*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:45:01 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:45:56 ICT" duration-ms="55446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_vaksin* Kosong"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:45:56 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:47:03 ICT" duration-ms="67250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_note* Kosong"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:47:03 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:48:13 ICT" duration-ms="69731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *tabelPenilaian*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:48:13 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:49:24 ICT" duration-ms="71052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *tabelPenilaian*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:49:24 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:50:34 ICT" duration-ms="69838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *tabelPenilaian*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:50:34 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:51:44 ICT" duration-ms="69565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *tabelPenilaian*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:51:44 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:52:53 ICT" duration-ms="69656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *tabelPenilaian*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:52:53 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:54:04 ICT" duration-ms="70988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *tabelPenilaian*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:54:04 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:55:15 ICT" duration-ms="70647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *tabelPenilaian*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:55:15 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:56:24 ICT" duration-ms="69391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *tabelPenilaian*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:56:24 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:57:33 ICT" duration-ms="68927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *tabelPenilaian*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:57:33 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:58:43 ICT" duration-ms="70143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *tabelPenilaian*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:58:43 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:59:56 ICT" duration-ms="72468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_aspek* variasi data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T15:59:56 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:01:15 ICT" duration-ms="79548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_aspek* variasi data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T16:01:15 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:02:28 ICT" duration-ms="72449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_aspek* variasi data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T16:02:28 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:02:43 ICT" duration-ms="15578" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_aspek* variasi data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://dev.ptdika.com/employee/promotion/promotion/">...</a> is not clickable at point (129, 451). Other element would receive the click: <ul class="sub-menu" style="display: block;">...</ul>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [592b5757c6e8cba53da7d0a3ca936b84, clickElement {id=079511cb-d0a7-4318-95b8-259e430ee845}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50669/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (592b5757c6e8cba53da7d0a3ca936b84)] -> xpath: //a[@href='https://dev.ptdika.com/employee/promotion/promotion/']]
+Session ID: 592b5757c6e8cba53da7d0a3ca936b84]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://dev.ptdika.com/employee/promotion/promotion/">...</a> is not clickable at point (129, 451). Other element would receive the click: <ul class="sub-menu" style="display: block;">...</ul>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [592b5757c6e8cba53da7d0a3ca936b84, clickElement {id=079511cb-d0a7-4318-95b8-259e430ee845}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50669/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (592b5757c6e8cba53da7d0a3ca936b84)] -> xpath: //a[@href='https://dev.ptdika.com/employee/promotion/promotion/']]
+Session ID: 592b5757c6e8cba53da7d0a3ca936b84
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy28.click(Unknown Source)
+at definitions.promotion.HRISPagePromotionDefine.click_Promotion_subnav(HRISPagePromotionDefine.java:88)
+at ✽.User menekan Promotion pada submenu Navigation(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:288)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_160243.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T16:02:43 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:03:57 ICT" duration-ms="73891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_aspek* variasi data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T16:03:57 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:05:11 ICT" duration-ms="73642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_aspek* variasi data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T16:05:11 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:06:26 ICT" duration-ms="74654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_aspek* variasi data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T16:06:26 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:07:37 ICT" duration-ms="71354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_aspek* variasi data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T16:07:37 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:08:49 ICT" duration-ms="71830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *field_aspek* variasi data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T16:08:49 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:09:07 ICT" duration-ms="18472" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checklist tujuan promosi 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at definitions.promotion.HRISPagePromotionDefine.verif_tujuan_promosi2(HRISPagePromotionDefine.java:863)
+at ✽.Validasi tujuan promosi 2(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:326)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_160907.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T16:09:07 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:09:25 ICT" duration-ms="17780" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checklist tujuan promosi 3"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at definitions.promotion.HRISPagePromotionDefine.verif_tujuan_promosi3(HRISPagePromotionDefine.java:877)
+at ✽.Validasi tujuan promosi 3(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:337)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_160925.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T16:09:25 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:10:11 ICT" duration-ms="45397" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unchecklist tujuan promosi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-warning alert-dismissible fade show']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [457688bdf761132eda3e30ccbf6ef805, findElement {using=xpath, value=//div[@class='alert alert-warning alert-dismissible fade show']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51084/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 457688bdf761132eda3e30ccbf6ef805]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-warning alert-dismissible fade show']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [457688bdf761132eda3e30ccbf6ef805, findElement {using=xpath, value=//div[@class='alert alert-warning alert-dismissible fade show']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51084/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 457688bdf761132eda3e30ccbf6ef805
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy28.getText(Unknown Source)
+at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:350)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_161010.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.promotion.HRISPagePromotionJabatanNeg@6c284af]" started-at="2022-07-14T16:10:11 ICT" name="tearDownClass" finished-at="2022-07-14T16:10:11 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.promotion.HRISPagePromotionJabatanNeg -->
+      <class name="runner.promotion.HRISPagePromotionJabatan">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:01:14 ICT" name="setUpClass" finished-at="2022-07-14T15:01:14 ICT" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2fea3c2c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:01:14 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:02:28 ICT" duration-ms="74786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *fiel_nik*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:02:28 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:03:42 ICT" duration-ms="74015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Promosi jabatan dengan *fiel_nik* dipilih ---no nik--"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:03:42 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:04:57 ICT" duration-ms="75077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:04:57 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:06:15 ICT" duration-ms="77818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:06:15 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:07:35 ICT" duration-ms="80155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:07:35 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:09:01 ICT" duration-ms="85756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:09:01 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:10:32 ICT" duration-ms="90642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:10:32 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:12:08 ICT" duration-ms="95767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:12:08 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:13:38 ICT" duration-ms="90028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:13:38 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:15:04 ICT" duration-ms="86109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:15:04 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:16:49 ICT" duration-ms="105181" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-warning alert-dismissible fade show']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c49e149844458b4e415e5402271821c3, findElement {using=xpath, value=//div[@class='alert alert-warning alert-dismissible fade show']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64934/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c49e149844458b4e415e5402271821c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-warning alert-dismissible fade show']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c49e149844458b4e415e5402271821c3, findElement {using=xpath, value=//div[@class='alert alert-warning alert-dismissible fade show']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64934/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c49e149844458b4e415e5402271821c3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy28.getText(Unknown Source)
+at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan.feature:74)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_151649.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:16:49 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:18:15 ICT" duration-ms="86435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:18:15 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:19:34 ICT" duration-ms="78201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:19:34 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:20:59 ICT" duration-ms="85435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:20:59 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:22:12 ICT" duration-ms="72519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:22:12 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:23:00 ICT" duration-ms="48725" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7153306cc8cc4c42071da05d5f1ba87b, clickElement {id=4025d378-0788-47ea-9002-f24789f11652}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65209/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7153306cc8cc4c42071da05d5f1ba87b)] -> xpath: /html[1]/body[1]/div[5]/form[1]/div[6]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[2]/input[1]]
+Session ID: 7153306cc8cc4c42071da05d5f1ba87b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'NEXSOFT', ip: '10.0.0.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7153306cc8cc4c42071da05d5f1ba87b, clickElement {id=4025d378-0788-47ea-9002-f24789f11652}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65209/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7153306cc8cc4c42071da05d5f1ba87b)] -> xpath: /html[1]/body[1]/div[5]/form[1]/div[6]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[2]/input[1]]
+Session ID: 7153306cc8cc4c42071da05d5f1ba87b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at pom.PromotionPage.setAnswer02(PromotionPage.java:389)
+at definitions.promotion.HRISPagePromotionDefine.select_Value(HRISPagePromotionDefine.java:289)
+at ✽.User mengisi penilaian 6,2,5,5,4,4,4,4,4,4(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan.feature:64)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_152300.PNG'height="350" width="792"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:23:00 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:24:14 ICT" duration-ms="73268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:24:14 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:25:27 ICT" duration-ms="73841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:25:27 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:26:42 ICT" duration-ms="74196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:26:42 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:27:54 ICT" duration-ms="72779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:27:54 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:29:09 ICT" duration-ms="74921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:29:09 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:30:25 ICT" duration-ms="75731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:30:25 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:31:42 ICT" duration-ms="76873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:31:42 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:32:55 ICT" duration-ms="73539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:32:55 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T15:34:09 ICT" duration-ms="73291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cek setiap *field* pada add data Promosi jabatan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion Jabatan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.promotion.HRISPagePromotionJabatan@7e057f43]" started-at="2022-07-14T15:34:09 ICT" name="tearDownClass" finished-at="2022-07-14T15:34:09 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.promotion.HRISPagePromotionJabatan -->
+      <class name="runner.promotion.HRISPagePromotionSalary">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:10:11 ICT" name="setUpClass" finished-at="2022-07-14T16:10:11 ICT" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2fea3c2c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:10:11 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:11:03 ICT" duration-ms="52288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *Gapok*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:11:03 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:11:54 ICT" duration-ms="51103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *Gapok*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:11:54 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:12:44 ICT" duration-ms="50426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_Gapok*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:12:44 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:13:35 ICT" duration-ms="50719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_Gapok*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:13:35 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:14:27 ICT" duration-ms="51767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_Gapok*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:14:27 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:15:18 ICT" duration-ms="51557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *TunJabatan*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:15:18 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:16:10 ICT" duration-ms="51378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *TunJabatan*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:16:10 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:17:01 ICT" duration-ms="51371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_tunJabatan*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:17:01 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:17:53 ICT" duration-ms="51676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_tunJabatan*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:17:53 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:18:44 ICT" duration-ms="51615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_tunJabatan*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:18:44 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:19:38 ICT" duration-ms="53328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *TunKomunikasi*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:19:38 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:20:32 ICT" duration-ms="53923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *TunKomunikasi*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:20:32 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:21:22 ICT" duration-ms="50623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_tunKomunikasi*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:21:22 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:22:13 ICT" duration-ms="50658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_tunKomunikasi*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:22:13 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:23:04 ICT" duration-ms="50744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_tunKomunikasi*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:23:04 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:23:56 ICT" duration-ms="52723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *TunTransportasi*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:23:56 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:24:51 ICT" duration-ms="54098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *TunTransportasi*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:24:51 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:25:43 ICT" duration-ms="52525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_tunTransportasi*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:25:43 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:26:36 ICT" duration-ms="52977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_tunTransportasi*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:26:36 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:27:28 ICT" duration-ms="52220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add data Perubahan salary *variasiData_tunTransportasi*"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Pengajuan Promotion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.promotion.HRISPagePromotionSalary@5890e879]" started-at="2022-07-14T16:27:28 ICT" name="tearDownClass" finished-at="2022-07-14T16:27:28 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.promotion.HRISPagePromotionSalary -->
+    </test> <!-- HRIS Employee -->
+  </suite> <!-- SuiteTest -->
+</testng-results>

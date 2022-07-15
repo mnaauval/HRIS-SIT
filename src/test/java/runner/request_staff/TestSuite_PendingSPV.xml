@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="HRIS Employee" parallel="none">
+	<test name="SPV: Menu Pending">
+
+		<classes>
+			<class name="runner.HRISPendingSpvRunner"></class>
+		</classes>
+
+	</test>
+	<test name="SPV: Menu Pending N">
+
+		<classes>
+			<class name="runner.HRISPendingSpvNegatifRunner"></class>
+		</classes>
+
+	</test>
+</suite>

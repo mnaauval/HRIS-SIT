@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="HRIS Employee" parallel="none">
+	<test name="Manager: Menu Pending">
+
+		<classes>
+			<class name="runner.HRISPendingMngrRunner"></class>
+			<class name="runner.HRISPendingMngrNegatifRunner"></class>
+		</classes>
+
+	</test>
+</suite>

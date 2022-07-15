@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="HRIS Employee" parallel="none">
+	<test name="SPV Menu Pending">
+
+		<classes>
+			<class name="runner.HRISPendingSpvRunner"></class>
+			<class name="runner.HRISPendingSpvNegatifRunner"></class>
+		</classes>
+
+	</test>
+	<test name="SPV Menu Tracking">
+
+		<classes>
+			<class name="runner.HRISTrackingSpvRunner"></class>
+		</classes>
+
+	</test>
+	<test name="Manager Menu Pending">
+
+		<classes>
+			<class name="runner.HRISPendingMngrRunner"></class>
+			<class name="runner.HRISPendingMngrNegatifRunner"></class>
+		</classes>
+
+	</test>
+	<test name="Manager Menu Tracking">
+
+		<classes>
+			<class name="runner.HRISTrackingMngrRunner"></class>
+		</classes>
+
+	</test>
+
+</suite>

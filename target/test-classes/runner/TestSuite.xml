@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SuiteTest" parallel="none">
+	<test name="HRIS Employee">
+
+		<classes>
+			<class name="runner.promotion_history.HRISPromotionHistoryRunner"></class>
+		</classes>
+
+	</test>
+</suite>

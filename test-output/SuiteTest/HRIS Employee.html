@@ -1,0 +1,1195 @@
+<html>
+<head>
+<title>TestNG:  HRIS Employee</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>HRIS Employee</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>95/11/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 14 14:33:25 ICT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>6842 seconds (6842810 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unchecklist tujuan promosi", "Add Pengajuan Promotion Jabatan"<br/>
+<a href="#Output-831179450" onClick='toggleBox("Output-831179450", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-831179450" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-831179450">
+<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_161010.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [457688bdf761132eda3e30ccbf6ef805, findElement {using=xpath, value=//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51084/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 457688bdf761132eda3e30ccbf6ef805
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+	at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:350)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace831179450", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace831179450'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [457688bdf761132eda3e30ccbf6ef805, findElement {using=xpath, value=//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51084/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 457688bdf761132eda3e30ccbf6ef805
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+	at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:350)
+</pre></div></td>
+<td>45</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Tampil sent to uplier", "Add Pengajuan Promotion"<br/>
+<a href="#Output-1146867354" onClick='toggleBox("Output-1146867354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1146867354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1146867354">
+<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_143558.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;table&quot;]/tbody/tr/td[6]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2514f56dccc3ec93c3ccd43ba5b9ddd1, findElement {using=xpath, value=//*[@id=&quot;table&quot;]/tbody/tr/td[6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63071/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2514f56dccc3ec93c3ccd43ba5b9ddd1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at pom.PromotionHistoryPage.getAppr(PromotionHistoryPage.java:111)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_asc_kolom_appr(HRISPagePromotionDefine.java:915)
+	at ✽.Validasi kolom Appr(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:45)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1146867354", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1146867354'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;table&quot;]/tbody/tr/td[6]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2514f56dccc3ec93c3ccd43ba5b9ddd1, findElement {using=xpath, value=//*[@id=&quot;table&quot;]/tbody/tr/td[6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63071/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2514f56dccc3ec93c3ccd43ba5b9ddd1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at pom.PromotionHistoryPage.getAppr(PromotionHistoryPage.java:111)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_asc_kolom_appr(HRISPagePromotionDefine.java:915)
+	at ✽.Validasi kolom Appr(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:45)
+</pre></div></td>
+<td>70</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_vaksin* pilih belum vaksin", "Add Pengajuan Promotion"<br/>
+<a href="#Output-506888325" onClick='toggleBox("Output-506888325", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-506888325" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-506888325">
+<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_145109.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://dev.ptdika.com/employee/promotion/&quot; class=&quot;btn btn-danger&quot;&gt;...&lt;/a&gt; is not clickable at point (309, 17). Other element would receive the click: &lt;div id=&quot;header&quot; class=&quot;header navbar-default&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=103.0.5060.114)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6499dc5fd429af831138d39e4269b054, clickElement {id=63933deb-aeac-46ac-a1f6-e5fd844c6f50}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63806/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6499dc5fd429af831138d39e4269b054)] -&gt; xpath: //a[@class=&apos;btn btn-danger&apos;]]
+Session ID: 6499dc5fd429af831138d39e4269b054
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.kembali(HRISPagePromotionDefine.java:363)
+	at ✽.Kembali ke halaman promotion(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:180)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace506888325", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace506888325'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://dev.ptdika.com/employee/promotion/&quot; class=&quot;btn btn-danger&quot;&gt;...&lt;/a&gt; is not clickable at point (309, 17). Other element would receive the click: &lt;div id=&quot;header&quot; class=&quot;header navbar-default&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=103.0.5060.114)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6499dc5fd429af831138d39e4269b054, clickElement {id=63933deb-aeac-46ac-a1f6-e5fd844c6f50}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63806/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6499dc5fd429af831138d39e4269b054)] -&gt; xpath: //a[@class=&apos;btn btn-danger&apos;]]
+Session ID: 6499dc5fd429af831138d39e4269b054
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.kembali(HRISPagePromotionDefine.java:363)
+	at ✽.Kembali ke halaman promotion(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:180)
+</pre></div></td>
+<td>68</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_start* and *field_end* >=current", "Add Pengajuan Promotion"<br/>
+<a href="#Output-240931578" onClick='toggleBox("Output-240931578", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-240931578" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-240931578">
+<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_144234.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec57f88f617164b42a977b2a2724d7b6, findElement {using=xpath, value=//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63394/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec57f88f617164b42a977b2a2724d7b6
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+	at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:65)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace240931578", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace240931578'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec57f88f617164b42a977b2a2724d7b6, findElement {using=xpath, value=//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63394/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec57f88f617164b42a977b2a2724d7b6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+	at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:65)
+</pre></div></td>
+<td>72</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_start* and *field_end* >=current", "Add Pengajuan Promotion"<br/>
+<a href="#Output-1874912328" onClick='toggleBox("Output-1874912328", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1874912328" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1874912328">
+<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_143920.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d669933be913db625561e1d30776dca4, findElement {using=xpath, value=//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63236/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d669933be913db625561e1d30776dca4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+	at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:65)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1874912328", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1874912328'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d669933be913db625561e1d30776dca4, findElement {using=xpath, value=//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63236/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d669933be913db625561e1d30776dca4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+	at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:65)
+</pre></div></td>
+<td>66</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_aspek* variasi data", "Add Pengajuan Promotion Jabatan"<br/>
+<a href="#Output-551290932" onClick='toggleBox("Output-551290932", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-551290932" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-551290932">
+<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_160243.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://dev.ptdika.com/employee/promotion/promotion/&quot;&gt;...&lt;/a&gt; is not clickable at point (129, 451). Other element would receive the click: &lt;ul class=&quot;sub-menu&quot; style=&quot;display: block;&quot;&gt;...&lt;/ul&gt;
+  (Session info: chrome=103.0.5060.114)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [592b5757c6e8cba53da7d0a3ca936b84, clickElement {id=079511cb-d0a7-4318-95b8-259e430ee845}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50669/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (592b5757c6e8cba53da7d0a3ca936b84)] -&gt; xpath: //a[@href=&apos;https://dev.ptdika.com/employee/promotion/promotion/&apos;]]
+Session ID: 592b5757c6e8cba53da7d0a3ca936b84
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.click_Promotion_subnav(HRISPagePromotionDefine.java:88)
+	at ✽.User menekan Promotion pada submenu Navigation(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:288)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace551290932", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace551290932'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://dev.ptdika.com/employee/promotion/promotion/&quot;&gt;...&lt;/a&gt; is not clickable at point (129, 451). Other element would receive the click: &lt;ul class=&quot;sub-menu&quot; style=&quot;display: block;&quot;&gt;...&lt;/ul&gt;
+  (Session info: chrome=103.0.5060.114)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [592b5757c6e8cba53da7d0a3ca936b84, clickElement {id=079511cb-d0a7-4318-95b8-259e430ee845}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50669/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (592b5757c6e8cba53da7d0a3ca936b84)] -&gt; xpath: //a[@href=&apos;https://dev.ptdika.com/employee/promotion/promotion/&apos;]]
+Session ID: 592b5757c6e8cba53da7d0a3ca936b84
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.click_Promotion_subnav(HRISPagePromotionDefine.java:88)
+	at ✽.User menekan Promotion pada submenu Navigation(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:288)
+</pre></div></td>
+<td>15</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"<br/>
+<a href="#Output-224809804" onClick='toggleBox("Output-224809804", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-224809804" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-224809804">
+<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_151649.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c49e149844458b4e415e5402271821c3, findElement {using=xpath, value=//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64934/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c49e149844458b4e415e5402271821c3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+	at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan.feature:74)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace224809804", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace224809804'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c49e149844458b4e415e5402271821c3, findElement {using=xpath, value=//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64934/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c49e149844458b4e415e5402271821c3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+	at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan.feature:74)
+</pre></div></td>
+<td>105</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checklist tujuan promosi 2", "Add Pengajuan Promotion Jabatan"<br/>
+<a href="#Output-1338597571" onClick='toggleBox("Output-1338597571", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1338597571" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1338597571">
+<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_160907.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at definitions.promotion.HRISPagePromotionDefine.verif_tujuan_promosi2(HRISPagePromotionDefine.java:863)
+	at ✽.Validasi tujuan promosi 2(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:326)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1338597571", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1338597571'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at definitions.promotion.HRISPagePromotionDefine.verif_tujuan_promosi2(HRISPagePromotionDefine.java:863)
+	at ✽.Validasi tujuan promosi 2(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:326)
+</pre></div></td>
+<td>18</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checklist tujuan promosi 3", "Add Pengajuan Promotion Jabatan"<br/>
+<a href="#Output-219551788" onClick='toggleBox("Output-219551788", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-219551788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-219551788">
+<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_160925.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at definitions.promotion.HRISPagePromotionDefine.verif_tujuan_promosi3(HRISPagePromotionDefine.java:877)
+	at ✽.Validasi tujuan promosi 3(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:337)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace219551788", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace219551788'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at definitions.promotion.HRISPagePromotionDefine.verif_tujuan_promosi3(HRISPagePromotionDefine.java:877)
+	at ✽.Validasi tujuan promosi 3(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan_Negatif.feature:337)
+</pre></div></td>
+<td>17</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"<br/>
+<a href="#Output-1294119833" onClick='toggleBox("Output-1294119833", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1294119833" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1294119833">
+<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_152300.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7153306cc8cc4c42071da05d5f1ba87b, clickElement {id=4025d378-0788-47ea-9002-f24789f11652}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65209/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7153306cc8cc4c42071da05d5f1ba87b)] -&gt; xpath: /html[1]/body[1]/div[5]/form[1]/div[6]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[2]/input[1]]
+Session ID: 7153306cc8cc4c42071da05d5f1ba87b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pom.PromotionPage.setAnswer02(PromotionPage.java:389)
+	at definitions.promotion.HRISPagePromotionDefine.select_Value(HRISPagePromotionDefine.java:289)
+	at ✽.User mengisi penilaian 6,2,5,5,4,4,4,4,4,4(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan.feature:64)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1294119833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1294119833'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7153306cc8cc4c42071da05d5f1ba87b, clickElement {id=4025d378-0788-47ea-9002-f24789f11652}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65209/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7153306cc8cc4c42071da05d5f1ba87b)] -&gt; xpath: /html[1]/body[1]/div[5]/form[1]/div[6]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[2]/input[1]]
+Session ID: 7153306cc8cc4c42071da05d5f1ba87b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pom.PromotionPage.setAnswer02(PromotionPage.java:389)
+	at definitions.promotion.HRISPagePromotionDefine.select_Value(HRISPagePromotionDefine.java:289)
+	at ✽.User mengisi penilaian 6,2,5,5,4,4,4,4,4,4(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionJabatan.feature:64)
+</pre></div></td>
+<td>48</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_start* < current time [-]", "Add Pengajuan Promotion"<br/>
+<a href="#Output-1709502041" onClick='toggleBox("Output-1709502041", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1709502041" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1709502041">
+<img src='file://D:\EclipseWorkSpace\TA_HRIS\src\test\resources\SS\20220714_145325.PNG'height="350" width="792"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ee4922eadbf2920de11652ea0574682, findElement {using=xpath, value=//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63919}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63919/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ee4922eadbf2920de11652ea0574682
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+	at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:218)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1709502041", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1709502041'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;NEXSOFT&apos;, ip: &apos;10.0.0.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ee4922eadbf2920de11652ea0574682, findElement {using=xpath, value=//div[@class=&apos;alert alert-warning alert-dismissible fade show&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\62822\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63919}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63919/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ee4922eadbf2920de11652ea0574682
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at definitions.promotion.HRISPagePromotionDefine.validasi_Data_Tersimpan(HRISPagePromotionDefine.java:704)
+	at ✽.Validasi data tersimpan(file:///D:/EclipseWorkSpace/TA_HRIS/src/test/resources/features/005-MODUL%20PROMOTION/HRISAddPromotionContract.feature:218)
+</pre></div></td>
+<td>71</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_Status* Kosong", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>70</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *tabelPenilaian*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>69</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>73</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>73</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_note* Kosong", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>67</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>80</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>86</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>75</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_Gapok*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>51</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_tunKomunikasi*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>50</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *tabelPenilaian*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>70</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_start* and *field_end* >=current", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>63</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>78</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>72</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>76</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_start* and *field_end* >=current", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>72</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_aspek* variasi data", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>74</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_tunKomunikasi*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>50</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *masa* edit > < auto sum", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>62</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_vaksin* >=< current", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>64</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Action click *AddData*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>22</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *tabelPenilaian*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>71</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_aspek* variasi data", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>73</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_aspek* variasi data", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>71</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_Jabatan* Kosong", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>72</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_aspek* variasi data", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>72</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_tglEf* Kosong", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>73</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *TunKomunikasi*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>53</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>74</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *tabelPenilaian*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>68</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *tabelPenilaian*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>70</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_tunJabatan*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>51</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *tabelPenilaian*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>70</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_tunTransportasi*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>52</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_end*  < start", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>57</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>86</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *TunKomunikasi*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>53</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_end* < current time [-]", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>53</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *fiel_nik*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>74</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *Gapok*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>52</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_Gapok*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>50</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>85</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_tunJabatan*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>51</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *tabelPenilaian*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>69</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>77</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_tunTransportasi*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>52</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_note* variasi data [-]", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>58</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>95</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_masa* kosong [-]", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>57</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *TunJabatan*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>51</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>75</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_start* kosong [-]", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>52</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_start* and *field_end* >=current", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>57</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_aspek* variasi data", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>71</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_start* and *field_end* >=current", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>64</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *masa* edit > < auto sum", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>69</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_masa* show auto sum, masa =0 & < 0", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>53</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_vaksin* >=< current", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>61</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *Gapok*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>51</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_Gapok*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>53</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Tampil pesan sukses jika data berhasil ditambahkan", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>59</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_masa* show auto sum, masa =0 & < 0", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>64</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>72</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_Gapok*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>50</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_aspek* variasi data", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>73</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>73</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_Gapok*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>53</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_note* variasi data [-]", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>67</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_Gapok*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>54</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *fiel_nik* dipilih ---no nik--", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>74</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_tunTransportasi*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>52</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *tabelPenilaian*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>69</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *tabelPenilaian*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>69</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_vaksin* >=< current", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>66</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_divisi* Kosong", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>71</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_tunKomunikasi*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>50</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *TunJabatan*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>51</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>90</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>74</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>90</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_vaksin* Kosong", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>55</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_aspek* variasi data", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>79</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_Unit* Kosong", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>72</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *TunTransportasi*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>54</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_start* < current_time", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>63</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>73</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *TunTransportasi*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>52</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_start* tgl vaksin kosong [-]", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>64</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_NIK* tidak dipilih", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>58</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionSalary.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionSalary<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan salary *variasiData_tunJabatan*", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>51</td>
+<td>runner.promotion.HRISPagePromotionSalary@5890e879</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_level* Kosong", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>71</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *field_aspek* variasi data", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>72</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatan.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatan<br>Test method: Runs Cucumber Scenarios<br>Parameters: "cek setiap *field* pada add data Promosi jabatan", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>85</td>
+<td>runner.promotion.HRISPagePromotionJabatan@7e057f43</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionJabatanNeg.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionJabatanNeg<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Promosi jabatan dengan *tabelPenilaian*", "Add Pengajuan Promotion Jabatan"</td>
+<td></td>
+<td>69</td>
+<td>runner.promotion.HRISPagePromotionJabatanNeg@6c284af</td></tr>
+<tr>
+<td title='runner.promotion.HRISPagePromotionContract.runScenario()'><b>runScenario</b><br>Test class: runner.promotion.HRISPagePromotionContract<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add data Perubahan kontrak dengan *field_masa* show auto sum, masa =0 & < 0", "Add Pengajuan Promotion"</td>
+<td></td>
+<td>62</td>
+<td>runner.promotion.HRISPagePromotionContract@14028087</td></tr>
+</table><p>
+</body>
+</html>
